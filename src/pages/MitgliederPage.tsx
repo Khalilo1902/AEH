@@ -1,4 +1,4 @@
-import MaxWithWrapper from "../components/MaxWithWrapper";
+
 import ImageCard from "../components/imageCardMitglieder/imageCardMitglieder";
 
 const MitgliederPage = () => {
@@ -42,25 +42,31 @@ const MitgliederPage = () => {
     ];
 
     return (
-        <MaxWithWrapper>
-            <div className="w-full">
-                <div className="flex justify-center mt-16">
-                    <img src="/mitglieder/Rectangle 3.png" alt=""/>
-                </div>
-                <div className="flex flex-col justify-center text-center mt-16">
-                    <p className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Willkommen bei der AEH!</p>
-                    <p className="font-FONT_ROBOTO font-bold text-4xl md:text-5xl lg:text-6xl xl:text-7xl mt-4">Mitgliedsorganisation</p>
-                    <p className="font-FONT_ROBOTO text-3xl md:text-4xl lg:text-5xl xl:text-6xl">der AEH</p>
-                </div>
-                <div className="flex items-center justify-center bg-neutral-800 mt-8">
-                    <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
-                        {images.map((image, index) => (
-                            <ImageCard key={index} {...image} />
-                        ))}
-                    </div>
+
+        <div className="w-full">
+            <div className="flex justify-center px-2">
+                <img src="/mitglieder/Rectangle 3.png" alt=""/>
+            </div>
+
+            <div className="w-auto px-3 flex flex-col justify-start mt-8 mb-8">
+                <p className="gap-8 mt-5 mb-5">Willkommen bei der AEH!</p>
+                <h1 className="lg:text-4xl text-xl">
+                    <span className="font-bold">Mitgliedsorganisationen</span>
+                    <p>der AEH</p>
+                </h1>
+
+            </div>
+
+
+            <div className="flex items-center justify-center bg-neutral-800 mt-28">
+                <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+                    {images.map((image, index) => (
+                        <ImageCard key={index} {...image} />
+                    ))}
                 </div>
             </div>
-        </MaxWithWrapper>
+        </div>
+
     );
 };
 

@@ -50,8 +50,8 @@ const Nav = ({ isMenuActive, setIsMenuActive }: INavProps) => {
             onClick={toggleMenu}
             className="flex  cursor-pointer text-sm sm:text-xl px-4 py-1  rounded-lg items-center gap-3"
           >
-            {/* Display the selected language and flag */}
-            <span className="flex gap-2 items-center font-bold">
+
+            <span className="flex gap-2 items-center text-sm ">
               <ReactCountryFlag countryCode={selectLanguage.countryCode} />
               {selectLanguage.language}
             </span>
@@ -62,7 +62,7 @@ const Nav = ({ isMenuActive, setIsMenuActive }: INavProps) => {
             )}
           </div>
         </div>
-        <p className=" text-sm sm:text-xl font-medium hidden md:flex">Impressum</p>
+        <p className=" text-sm sm:text-sm hidden md:flex">Impressum</p>
       </div>
       {isMenuActive && (
         <div className="absolute top-12  right-3 sm:right-10 md:right-40 lg:right-40 xl:right-[450px] z-50 flex flex-col gap-4 rounded-lg bg-PRIMARY_WHITE py-6 px-4">
