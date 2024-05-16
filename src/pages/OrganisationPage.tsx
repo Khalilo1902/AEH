@@ -100,56 +100,60 @@ const OrganisationPage = () => {
       ] 
   return (
     <>
-      <div className=" w-full flex flex-col justify-center">
-        <div className=" w-full flex justify-center ">
-          <img className="w-full" src="/organisation/organisation1.png" alt="" />
+        <div className=" w-full flex flex-col justify-center">
+            <div className=" w-full flex justify-center px-2 ">
+                <img className="w-full" src="/organisation/organisation1.png" alt=""/>
+            </div>
+            <div className="w-auto px-3 flex flex-col justify-start mt-8 mb-8">
+                <p className="gap-8 mt-5 mb-5">Willkommen bei der AEH!</p>
+                <h1 className="lg:text-4xl text-xl">
+                    <span className="font-bold">Organisation</span>
+
+                </h1>
+
+            </div>
+            <div className=" mt-5">
+                <div className="w-auto px-3 flex flex-col justify-start mt-8 mb-8">
+                    <h1 className="lg:text-4xl text-xl">
+                        <span className="font-bold">Aufbau </span> der AEH
+                    </h1>
+
+
+                    <p className=" mt-7  text-justify leading-normal">
+                        Die AEH ist ein Zusammenschluss von Organisationen, die als
+                        Interessenvertretung von und für Menschen mit Behinderungen aktiv
+                        sind. Alle in der AEH zusammengeschlossenen Organisationen haben
+                        ihren Sitz in einem der europäischen Staaten.
+                    </p>
+                    <p className="mt-4  text-justify leading-normal">
+                        Die AEH ist parteipolitisch und konfessionell neutral. Die
+                        Geschäfte werden von einem ehrenamtlich tätigen Präsidium geführt,
+                        das aus einem/einer Präsident:in, drei Vizepräsident:innen,
+                        einer/einem Schatzmeister:in und Beisitzer:innen besteht.
+                    </p>
+                </div>
+            </div>
+            <div className="mt-10">
+                <div className="w-auto px-3 flex flex-col justify-start mt-8 mb-8">
+                    <h1 className="lg:text-4xl text-xl">
+                        <span className="font-bold">Präsidium </span> der AEH
+                    </h1>
+                </div>
+                <div
+                    className=" flex flex-wrap justify-center gap-5 mt-5"
+                >
+                    {
+                        renderComponent.map((Component, index) => (
+                            <div
+                                className=" "
+                                key={index}>
+                                <PresidiumSection {...Component}/>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
         </div>
-        <div className=" flex flex-col gap-8 mt-5">
-          <p>Willkommen bei der AEH!</p>
-          <p className=" font-FONT_ROBOTO font-bold text-3xl">
-            Organisation
-          </p>
-        </div>
-        <div className=" mt-5">
-          <h1 className="text-3xl  flex gap-2">
-            <span className=" font-FONT_ROBOTO font-bold"> Aufbau</span>
-            <span>der AEH</span>
-          </h1>
-          <div className=" flex flex-col gap-4">
-            <p className=" text-pretty mt-5">
-              Die AEH ist ein Zusammenschluss von Organisationen, die als
-              Interessenvertretung von und für Menschen mit Behinderungen aktiv
-              sind. Alle in der AEH zusammengeschlossenen Organisationen haben
-              ihren Sitz in einem der europäischen Staaten.
-            </p>
-            <p className=" text-pretty">
-              Die AEH ist parteipolitisch und konfessionell neutral. Die
-              Geschäfte werden von einem ehrenamtlich tätigen Präsidium geführt,
-              das aus einem/einer Präsident:in, drei Vizepräsident:innen,
-              einer/einem Schatzmeister:in und Beisitzer:innen besteht.
-            </p>
-          </div>
-        </div>
-        <div className="mt-10">
-          <h1 className=" text-3xl flex gap-2">
-            <span className="font-bold font-FONT_ROBOTO">Präsidium </span>
-            <span>der AEH</span>
-          </h1>
-          <div
-          className=" flex flex-wrap justify-center gap-5 mt-5"
-          >
-{
-    renderComponent.map((Component,index)=>(
-        <div
-        className=" "
-        key={index}>
-            <PresidiumSection {...Component}/>
-        </div>
-    ))
-}
-          </div>
-        </div>
-      </div>
     </>
   );
 };

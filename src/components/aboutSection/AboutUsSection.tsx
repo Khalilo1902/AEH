@@ -29,7 +29,7 @@ const AboutUsSection = () => {
                          Hinblick auf die Verbesserung ihrer Wohnsituation.
                     </p>
                     <div className="w-full flex justify-end">
-                        <img src="/biqQoteOben.png" alt="" className="w-12 h-12"/>
+                        <img src="/biqQoteOben.png" alt="" className="w-10 h-10"/>
                     </div>
 
                 </div>

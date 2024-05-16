@@ -13,14 +13,14 @@ const PresidiumSection = ({
     
     return (
      <div className=" w-full">
-           <div className=" flex flex-col items-center justify-center gap-1">
+           <div className=" flex flex-col items-center justify-center gap-4">
             <div>
-                <img className=" w-48 h-48 rounded-full" src={image} alt="" />
+                <img className=" w-44 h-44 rounded-full" src={image} alt="" />
             </div>
-            <div className=" flex flex-col items-center gap-2 font-FONT_ROBOTO font-bold text-sm">
+            <div className=" flex flex-col items-center    text-sm">
                 <p>{position}</p>
-                <p>{firstName} {LastName}</p>
-                <p>{email}</p>
+                <p className="font-bold">{firstName} {LastName}</p>
+                <p className="cursor-pointer underline">{email}</p>
             </div>
         </div>
      </div>
