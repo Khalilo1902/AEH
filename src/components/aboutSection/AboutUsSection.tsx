@@ -1,6 +1,6 @@
 const AboutUsSection = () => {
     return (
-        <div className="w-full flex ">
+        <div className="w-full max-w-full  ">
             <div className="w-full flex flex-col justify-center">
                 <div className="w-auto flex justify-start mt-8">
                     <h1 className="lg:text-4xl text-xl">

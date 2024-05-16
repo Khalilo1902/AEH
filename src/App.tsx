@@ -5,6 +5,8 @@ import Nav from "./components/header/nav/Nav";
 import Menu from "./components/menu/Menu";
 import { useState } from "react";
 import MaxWithWrapper from "./components/MaxWithWrapper";
+import './App.css';
+
 
 const App = () => {
   const [isMenuActive, setIsMenuActive] = useState(false);

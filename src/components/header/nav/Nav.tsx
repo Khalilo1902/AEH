@@ -29,20 +29,20 @@ const Nav = ({ isMenuActive, setIsMenuActive }: INavProps) => {
   };
 
   return (
-    <div className="my-4 mx-0.5 flex justify-between items-center w-full">
+    <div className="my-4 mx-0.5 flex justify-between items-center w-full md:px-2">
       <div className="relative flex gap-3 items-center">
-        <FaFacebook className="w-8 h-8 text-PRIMARY_BLUE cursor-pointer" />
+        <FaFacebook className="md:w-8 md:h-8 h-6 w-6 text-PRIMARY_BLUE cursor-pointer" />
         <img
           src="/nav/X.png"
           alt=""
-          className="w-8 h-8 rounded-full cursor-pointer"
+          className="h-6 w-6 md:w-8 md:h-8 rounded-full cursor-pointer"
         />
         <img
           src="/nav/instegram.jpeg"
           alt=""
-          className="w-8 h-8 rounded-full cursor-pointer"
+          className="h-6 w-6 md:w-8 md:h-8 rounded-full cursor-pointer"
         />
-        <FaYoutube className="w-8 h-8 rounded-full text-red-500 cursor-pointer" />
+        <FaYoutube className="h-6 w-6 md:w-8 md:h-8 rounded-full text-red-500 cursor-pointer" />
       </div>
       <div className="flex items-center justify-around gap-6">
         <div className="flex ">
@@ -65,7 +65,7 @@ const Nav = ({ isMenuActive, setIsMenuActive }: INavProps) => {
         <p className=" text-sm sm:text-xl font-medium hidden md:flex">Impressum</p>
       </div>
       {isMenuActive && (
-        <div className="absolute top-12 right-[444px] z-50 flex flex-col gap-4 rounded-lg bg-PRIMARY_WHITE py-6 px-4">
+        <div className="absolute top-12  right-3 sm:right-10 md:right-40 lg:right-40 xl:right-[450px] z-50 flex flex-col gap-4 rounded-lg bg-PRIMARY_WHITE py-6 px-4">
           <p
             onClick={() => handleLanguageClick("English", "US")}
             className="flex items-center gap-2 cursor-pointer border-b-2 hover:scale-110"

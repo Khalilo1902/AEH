@@ -36,26 +36,26 @@ const HomePage = () => {
   ];
   return (
       <div >
-          <div className=" w-full px-2 sm:px-0 ">
+          <div className=" w-full px-2  ">
               <Carousel slides={slides}/>
           </div>
           <div className=" w-full  ">
-              <div className=" w-full mx-3 ">
+              <div className=" max-w-full mx-3 ">
 
                   <AboutUsSection/>
 
               </div>
           </div>
-          <div className="w-auto flex justify-start mt-8 mb-8">
+          <div className="w-auto px-3 flex justify-start mt-8 mb-8">
               <h1 className="lg:text-4xl text-xl">
                   <span className="font-bold">Unser</span> Aktion
               </h1>
           </div>
 
           <div className="flex w-full  items-center justify-center bg-neutral-800">
-          <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 ">
+          <div className="grid grid-cols-1 md:px-3 md:rounded-lg  gap-5 md:grid-cols-1 lg:grid-cols-3 ">
                     {images.map((image, index) => (
-                        <div key={index} className="max-w-xs">
+                        <div key={index} className="">
                             <ImageCard {...image} />
                         </div>
                     ))}

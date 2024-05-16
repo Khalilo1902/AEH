@@ -6,7 +6,7 @@ interface IMaxWithWrapperProps{
 }
 const MaxWithWrapper = ({children,className}:IMaxWithWrapperProps) => {
     return (
-        <div className={`mx-auto w-full my-auto  max-w-screen-2l px-2,5 md:px-72 ${className}`}>
+        <div className={`mx-auto w-full my-auto  max-w-screen-2l  px-2,5 xl:px-72 ${className}`}>
             {children}
         </div>
     );

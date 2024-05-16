@@ -3,8 +3,9 @@ import { NavLink } from "react-router-dom";
 const Menu = () => {
   return (
 
-    <div className=" mx-auto w-full px-2 sm:px-0  mb-14 max-w-screen-2l  ">
-      <div className="flex items-center gap-3  text-xs sm:text-xs  lg:text-lg w-full justify-between sm:font-bold ">
+    <div className=" mx-auto w-full px-2   mb-14 max-w-screen-2l  ">
+      <div className="flex items-center gap-3  text-xs sm:text-sm
+        lg:text-lg lg:font-bold w-full justify-between sm:font-bold ">
 
         <NavLink
           to="/home"

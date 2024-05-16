@@ -32,13 +32,13 @@ const Carousel = ({ slides } : CarouselProps) => {
     return (
         <div className="overflow-hidden relative rounded-lg w-full">
             <div
-                className={`flex transition ease-out duration-400 rounded-lg w-full h-[500px]`}
+                className={`flex transition ease-out duration-400 rounded-lg w-full xl:h-[500px] custom-h-300 custom-h-fit`}
                 style={{
                     transform: `translateX(-${current * 100}%)`,
                 }}
             >
                 {slides.map((s, index) => (
-                    <img className="w-full h-fit" key={index} src={s} alt={`slide ${index}`} />
+                    <img className="w-full lg:h-fit" key={index} src={s} alt={`slide ${index}`} />
                 ))}
             </div>
 

@@ -1,0 +1,11 @@
+@media (max-width: 500px) {
+    .custom-h-300 {
+        height: 300px !important;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 628px) {
+    .custom-h-fit {
+        height: fit-content !important;
+    }
+}

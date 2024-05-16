@@ -6,7 +6,7 @@ import { fadeIn } from "../../utils/motin";
 
 const Footer = () => {
   return (
-      <div className="mx-auto w-full my-auto  max-w-screen-2l ">
+      <div className="mx-auto w-full my-auto  max-w-screen-2l px-4 sm:px-0 ">
         <div className=" container  flex h-full  w-full items-center justify-around md:px-28">
           <motion.div
               variants={fadeIn("left", 0.8)}
@@ -89,11 +89,11 @@ const Footer = () => {
                 <div><img className="  w-20 h-30 cursor-pointer" src="/footer/image4.png" alt=""/></div>
                 <div>
                   <p className=" flex flex-col">
-                    <span className=" font-bold text-xl">Interessiert?</span>
-                    <span>Interessiert? kontakt Aufnehemen!</span>
+                    <span className=" font-bold text-sm sm:text-xl">Interessiert?</span>
+                    <span className="text-sm">Interessiert? kontakt Aufnehemen!</span>
                   </p>
                  <div className=" w-full text-end">
-                 <button className=" mt-4  bg-SECONDARY_WHITE px-8 py-1 rounded-full font-bold hover:bg-Light_BLUE border-2 hover:scale-110">Kontakt</button>
+                 <button className=" mt-4  bg-SECONDARY_WHITE px-4 sm:px-8 py-1 rounded-full font-bold hover:bg-Light_BLUE border-2 hover:scale-110 text-sm">Kontakt</button>
                  </div>
                 </div>
               </div>
