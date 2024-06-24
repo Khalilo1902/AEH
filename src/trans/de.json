@@ -32,6 +32,69 @@
   "organisationPage.structureDescription1": "Die AEH ist ein Zusammenschluss von Organisationen, die als Interessenvertretung von und für Menschen mit Behinderungen aktiv sind. Alle in der AEH zusammengeschlossenen Organisationen haben ihren Sitz in einem der europäischen Staaten.",
   "organisationPage.structureDescription2": "Die AEH ist parteipolitisch und konfessionell neutral. Die Geschäfte werden von einem ehrenamtlich tätigen Präsidium geführt, das aus einem/einer Präsident:in, drei Vizepräsident:innen, einer/einem Schatzmeister:in und Beisitzer:innen besteht.",
   "organisationPage.presidiumTitle": "Präsidium der AEH",
+  "organisationPage.positions.president": "Präsident",
+  "organisationPage.positions.vicePresidentFemale": "Vizepräsidentin",
+  "organisationPage.positions.vicePresidentMale": "Vizepräsident",
+  "organisationPage.positions.treasurer": "Schatzmeisterin",
+  "organisationPage.positions.boardMemberFemale": "Beisitzerin",
+  "organisationPage.positions.boardMemberMale": "Beisitzer",
+  "organisationPage.positions.reviewer": "Revisor",
+  "organisationPage.positions.secretaryGeneral": "Generalsekretär",
+
+
+
+  "mitgliederPage.welcome": "Willkommen bei der AEH!",
+  "mitgliederPage.title": "Mitgliedsorganisationen",
+  "mitgliederPage.subtitle": "der AEH",
+  "mitgliederPage.images": [
+    {
+      "title": "Association des Parents d'Enfants Mentalement Handicapés (APEMH)",
+      "standort": "Esch/Alzette, Luxemburg"
+    },
+    {
+      "title": "Association La Bourguette",
+      "standort": "Pertuis, Frankreich"
+    },
+    {
+      "title": "Bundesverband der Kehlkopfoperierten e. V. (BVK)",
+      "standort": "Bonn, Deutschland"
+    },
+    {
+      "title": "Büro für Berufsintegrations-projekte",
+      "standort": "Hohenems, Österreich"
+    },
+    {
+      "title": "dafür Unternehmens- und Personalberatung GmbH",
+      "standort": "Hohenems, Österreich"
+    },
+    {
+      "title": "Katholieke Vereniging Gehandicapten (KVG)",
+      "standort": "Antwerpen, Belgien"
+    },
+    {
+      "title": "SONČEK",
+      "standort": "Antwerpen, Belgien"
+    },
+    {
+      "title": "Kriegsopfer und Behindertenverband Österreich (KOBV-Ö)",
+      "standort": "Wien, Österreich"
+    },
+    {
+      "title": "Sozialverband VdK Deutschland e.V.",
+      "standort": "Berlin, Deutschland"
+    }
+  ],
+
+
+
+  "kontaktPage.welcome": "Willkommen bei der AEH!",
+  "kontaktPage.title": "Kontakt",
+  "kontaktPage.generalSecretariat": "AEH–Generalsekretariat",
+  "kontaktPage.name": "Simon Öhe",
+  "kontaktPage.address": "Markus-Sittikus-Straße 20\nAT 6845 Hohenems",
+  "kontaktPage.phone": "Mobil: +43 699 192 172 95",
+  "kontaktPage.email": "info@aeh-europe.de",
+
 
 
 

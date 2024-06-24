@@ -1,59 +1,22 @@
 import ImageCard from "../components/imageCardMitglieder/imageCardMitglieder";
+import { useTranslation } from 'react-i18next';
+const MitgliederPage= () => {
+    const { t } = useTranslation();
 
-const MitgliederPage = () => {
-    const images = [
-        {
-            title: "Association des Parents d'Enfants Mentalement Handicapés (APEMH) ",
-            standort: "Esch/Alzette, Luxemburg",
-        },
-        {
-            title: "Association La Bourguette",
-            standort: "Pertuis, Frankreich",
-        },
-        {
-            title: "Bundesverband der Kehlkopfoperierten e. V. (BVK)",
-            standort: "Bonn, Deutschland",
-        },
-        {
-            title: "Büro für Berufsintegrations-projekte",
-            standort: "Hohenems, Österreich",
-        },
-        {
-            title: "dafür Unternehmens- und Personalberatung GmbH",
-            standort: "Hohenems, Österreich",
-        },
-        {
-            title: "Katholieke Vereniging Gehandicapten (KVG)",
-            standort: "Antwerpen, Belgien",
-        },
-        {
-            title: "SONČEK",
-            standort: "Antwerpen, Belgien",
-        },
-        {
-            title: "Kriegsopfer und Behindertenverband Österreich (KOBV-Ö)",
-            standort: "Wien, Österreich",
-        },
-        {
-            title: "Sozialverband VdK Deutschland e.V.",
-            standort: "Berlin, Deutschland",
-        },
-    ];
+    const images = t('mitgliederPage.images', { returnObjects: true }) as Array<{ title: string; standort: string }>;
 
     return (
-
         <div className="w-full">
-            <div className="flex justify-center px-2">
-                <img src="/mitglieder/Rectangle 3.png" alt=""/>
+            <div className="w-full flex justify-center px-2">
+                <img className="w-full" src="/mitglieder/Rectangle 3.png" alt="" />
             </div>
 
             <div className="w-auto px-3 flex flex-col justify-start mt-8 mb-8">
-                <p className="gap-8 mt-5 mb-5">Willkommen bei der AEH!</p>
+                <p className="gap-8 mt-5 mb-5">{t('mitgliederPage.welcome')}</p>
                 <h1 className="lg:text-4xl text-xl">
-                    <span className="font-bold">Mitgliedsorganisationen</span>
-                    <p>der AEH</p>
+                    <span className="font-bold">{t('mitgliederPage.title')}</span>
+                    <p>{t('mitgliederPage.subtitle')}</p>
                 </h1>
-
             </div>
 
             <div className="flex items-center justify-center bg-neutral-800 mt-28">
@@ -64,8 +27,7 @@ const MitgliederPage = () => {
                 </div>
             </div>
         </div>
-
     );
 };
 
-export default MitgliederPage;
+export default MitgliederPage
