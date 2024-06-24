@@ -32,7 +32,67 @@
   "organisationPage.structureDescription1": "AEH is an association of organizations that are actively representing the interests of and for people with disabilities. All organizations affiliated with AEH are based in one of the European countries.",
   "organisationPage.structureDescription2": "AEH is politically and denominationally neutral. The business is conducted by a voluntary presidium, which consists of a president, three vice presidents, a treasurer, and board members.",
   "organisationPage.presidiumTitle": "Presidium of AEH",
+  "organisationPage.positions.president": "President",
+  "organisationPage.positions.vicePresidentFemale": "Vice President",
+  "organisationPage.positions.vicePresidentMale": "Vice President",
+  "organisationPage.positions.treasurer": "Treasurer",
+  "organisationPage.positions.boardMemberFemale": "Board Member",
+  "organisationPage.positions.boardMemberMale": "Board Member",
+  "organisationPage.positions.reviewer": "Reviewer",
+  "organisationPage.positions.secretaryGeneral": "Secretary General",
 
+
+
+  "mitgliederPage.welcome": "Welcome to AEH!",
+  "mitgliederPage.title": "Member Organizations",
+  "mitgliederPage.subtitle": "of AEH",
+  "mitgliederPage.images": [
+    {
+      "title": "Association of Parents of Mentally Handicapped Children (APEMH)",
+      "standort": "Esch/Alzette, Luxembourg"
+    },
+    {
+      "title": "Association La Bourguette",
+      "standort": "Pertuis, France"
+    },
+    {
+      "title": "Federal Association of Laryngectomees (BVK)",
+      "standort": "Bonn, Germany"
+    },
+    {
+      "title": "Office for vocational integration projects",
+      "standort": "Hohenems, Austria"
+    },
+    {
+      "title": "dafür Unternehmens- und Personalberatung GmbH",
+      "standort": "Hohenems, Austria"
+    },
+    {
+      "title": "Catholic Disability Association (KVG)",
+      "standort": "Antwerp, Belgium"
+    },
+    {
+      "title": "SONČEK",
+      "standort": "Antwerp, Belgium"
+    },
+    {
+      "title": "Kriegsopfer und Behindertenverband Österreich (KOBV-Ö)",
+      "standort": "Vienna, Austria"
+    },
+    {
+      "title": "Social Association VdK Germany e.V.",
+      "standort": "Berlin, Germany"
+    }
+  ],
+
+
+  "kontaktPage.welcome": "Welcome to AEH!",
+  "kontaktPage.title": "Contact",
+  "kontaktPage.generalSecretariat": "AEH–General Secretariat",
+  "kontaktPage.name": "Simon Öhe",
+  "kontaktPage.address": "Markus-Sittikus-Straße 20\nAT 6845 Hohenems",
+  "kontaktPage.phone": "Mobile: +43 699 192 172 95",
+  "kontaktPage.email": "info@aeh-europe.de",
 
 
 

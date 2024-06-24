@@ -31,7 +31,68 @@
   "organisationPage.structureDescription1": "L'AEH est une association d'organisations représentant activement les intérêts des personnes handicapées. Toutes les organisations affiliées à l'AEH sont basées dans l'un des pays européens.",
   "organisationPage.structureDescription2": "L'AEH est politiquement et confessionnellement neutre. Les affaires sont dirigées par un présidium bénévole, composé d'un président, de trois vice-présidents, d'un trésorier et de membres du conseil.",
   "organisationPage.presidiumTitle": "Présidium de l'AEH",
+  "organisationPage.positions.president": "Président",
+  "organisationPage.positions.vicePresidentFemale": "Vice-présidente",
+  "organisationPage.positions.vicePresidentMale": "Vice-président",
+  "organisationPage.positions.treasurer": "Trésorière",
+  "organisationPage.positions.boardMemberFemale": "Membre du conseil",
+  "organisationPage.positions.boardMemberMale": "Membre du conseil",
+  "organisationPage.positions.reviewer": "Réviseur",
+  "organisationPage.positions.secretaryGeneral": "Secrétaire général",
 
+
+
+
+  "mitgliederPage.welcome": "Bienvenue chez l'AEH!",
+  "mitgliederPage.title": "Organisations membres",
+  "mitgliederPage.subtitle": "de l'AEH",
+  "mitgliederPage.images": [
+    {
+      "title": "Association des Parents d'Enfants Mentalement Handicapés (APEMH)",
+      "standort": "Esch/Alzette, Luxembourg"
+    },
+    {
+      "title": "Association La Bourguette",
+      "standort": "Pertuis, France"
+    },
+    {
+      "title": "Association fédérale des laryngectomisés (BVK)",
+      "standort": "Bonn, Allemagne"
+    },
+    {
+      "title": "Bureau des projets d'intégration professionnelle",
+      "standort": "Hohenems, Autriche"
+    },
+    {
+      "title": "dafür Unternehmens- und Personalberatung GmbH",
+      "standort": "Hohenems, Autriche"
+    },
+    {
+      "title": "Association catholique des personnes handicapées (KVG)",
+      "standort": "Anvers, Belgique"
+    },
+    {
+      "title": "SONČEK",
+      "standort": "Anvers, Belgique"
+    },
+    {
+      "title": "Association autrichienne des victimes de la guerre et des handicapés (KOBV-Ö)",
+      "standort": "Vienne, Autriche"
+    },
+    {
+      "title": "Association sociale VdK Allemagne e.V.",
+      "standort": "Berlin, Allemagne"
+    }
+  ],
+
+
+  "kontaktPage.welcome": "Bienvenue chez l'AEH!",
+  "kontaktPage.title": "Contact",
+  "kontaktPage.generalSecretariat": "Secrétariat général de l'AEH",
+  "kontaktPage.name": "Simon Öhe",
+  "kontaktPage.address": "Markus-Sittikus-Straße 20\nAT 6845 Hohenems",
+  "kontaktPage.phone": "Mobile: +43 699 192 172 95",
+  "kontaktPage.email": "info@aeh-europe.de",
 
 
 

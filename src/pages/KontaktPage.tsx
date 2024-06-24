@@ -7,7 +7,7 @@ const KontaktPage = () => {
 
             <div className="w-full">
                 <div className="flex justify-center px-2">
-                    <img src="/kontakt/kontakt.png" alt=""/>
+                    <img className="w-full" src="/kontakt/kontakt.png" alt=""/>
                 </div>
                 <div className="w-auto px-3 flex flex-col justify-start mt-8 mb-8">
 

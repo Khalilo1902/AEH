@@ -18,88 +18,87 @@ const OrganisationPage = () => {
 
     const renderComponent: IRenderComponent[] = [
         {
-          id: '1',
-          image: "/organisation/präsident.png",
-          position: 'Präsident',
-          firstName: "Pierre",
-          LastName: "Gyselinck",
-          email: "Pierre.Gyselinck@aeh-europe.de"
-         
+            id: '1',
+            image: "/organisation/präsident.png",
+            position: 'organisationPage.positions.president',
+            firstName: "Pierre",
+            LastName: "Gyselinck",
+            email: "Pierre.Gyselinck@aeh-europe.de"
         },
         {
-          id: '2',
-          image: "/organisation/vicePräsident.png",
-          position: 'Vizepräsidentin',
-          firstName: "Lieke",
-          LastName: "Zaeyen-Kuijken",
-          email: ""
+            id: '2',
+            image: "/organisation/vicePräsident.png",
+            position: 'organisationPage.positions.vicePresidentFemale',
+            firstName: "Lieke",
+            LastName: "Zaeyen-Kuijken",
+            email: ""
         },
         {
-          id: '3',
-          image: "/organisation/frauSchmitt.png",
-          position: 'Vizepräsidentin',
-          firstName: "Marie-José",
-          LastName: " Schmitt",
-          email: ""
+            id: '3',
+            image: "/organisation/frauSchmitt.png",
+            position: 'organisationPage.positions.vicePresidentFemale',
+            firstName: "Marie-José",
+            LastName: "Schmitt",
+            email: ""
         },
         {
-          id: '4',
-          image: "/organisation/vicePräsident.png",
-          position: 'Vizepräsident',
-          firstName: "Franz ",
-          LastName: "Groschan",
-          email: ""
+            id: '4',
+            image: "/organisation/vicePräsident.png",
+            position: 'organisationPage.positions.vicePresidentMale',
+            firstName: "Franz",
+            LastName: "Groschan",
+            email: ""
         },
         {
-          id: '5',
-          image: "/organisation/frauMarion.png",
-          position: 'Schatzmeisterin',
-          firstName: "Marion ",
-          LastName: "Kamper",
-          email: ""
+            id: '5',
+            image: "/organisation/frauMarion.png",
+            position: 'organisationPage.positions.treasurer',
+            firstName: "Marion",
+            LastName: "Kamper",
+            email: ""
         },
         {
-          id: '6',
-          image: "/organisation/frauVerena.png",
-          position: 'Beisitzerin',
-          firstName: "Verena",
-          LastName: "Bentele",
-          email: ""
+            id: '6',
+            image: "/organisation/frauVerena.png",
+            position: 'organisationPage.positions.boardMemberFemale',
+            firstName: "Verena",
+            LastName: "Bentele",
+            email: ""
         },
         {
             id: '7',
             image: "/organisation/vicePräsident.png",
-            position: 'Beisitzer',
-            firstName: "Taras ",
+            position: 'organisationPage.positions.boardMemberMale',
+            firstName: "Taras",
             LastName: "Poljanec",
             email: ""
-          },
-          {
+        },
+        {
             id: '8',
             image: "/organisation/herrHerbert.png",
-            position: 'Revisor',
-            firstName: "Herbert  ",
+            position: 'organisationPage.positions.reviewer',
+            firstName: "Herbert",
             LastName: "Hellmund",
             email: ""
-          },
-          {
+        },
+        {
             id: '9',
             image: "/organisation/frauBerndt.png",
-            position: 'Revisor',
-            firstName: "Berndt   ",
+            position: 'organisationPage.positions.reviewer',
+            firstName: "Berndt",
             LastName: "Maier",
             email: ""
-          },
-          {
+        },
+        {
             id: '10',
             image: "/organisation/herrKurt.png",
-            position: 'Generalsekretär',
-            firstName: "Kurt   ",
+            position: 'organisationPage.positions.secretaryGeneral',
+            firstName: "Kurt",
             LastName: "Öhe",
             email: ""
-          },
-          
-      ]
+        }
+    ];
+
     return (
         <>
             <div className="w-full flex flex-col justify-center">
@@ -134,7 +133,10 @@ const OrganisationPage = () => {
                     <div className="flex flex-wrap justify-center gap-5 mt-5">
                         {renderComponent.map((component, index) => (
                             <div key={index}>
-                                <PresidiumSection {...component} />
+                                <PresidiumSection
+                                    {...component}
+                                    position={t(component.position)}
+                                />
                             </div>
                         ))}
                     </div>
