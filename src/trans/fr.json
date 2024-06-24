@@ -1,0 +1,48 @@
+{
+  "menu.home": "Bienvenue chez l'AEH!",
+  "menu.organisation": "Organisation",
+  "menu.members": "Membres",
+  "menu.contact": "Contact",
+
+
+  "aboutUs.title": "Qui sommes-nous",
+  "aboutUs.description1": "L'AEH a été fondée en 1979 pour soutenir les personnes handicapées, avec la mise en œuvre de la Convention des Nations Unies relative aux droits des personnes handicapées (CNUDPH) comme objectif central.",
+  "aboutUs.description2": "En tant que co-fondatrice du Forum européen des personnes handicapées (EDF), l'AEH fait partie d'une institution importante qui plaide pour les intérêts des personnes handicapées au niveau européen et international.",
+  "aboutUs.description3": "Actuellement, l'AEH se concentre sur les défis résultant du vieillissement des personnes handicapées, en particulier en ce qui concerne l'amélioration de leurs conditions de vie.",
+  "aboutUs.title": "Qui sommes-nous",
+  "aboutUs.description1": "L'AEH a été fondée en 1979 pour soutenir les personnes handicapées, avec la mise en œuvre de la Convention des Nations Unies relative aux droits des personnes handicapées (CNUDPH) comme objectif central.",
+  "aboutUs.description2": "En tant que co-fondatrice du Forum européen des personnes handicapées (EDF), l'AEH fait partie d'une institution importante qui plaide pour les intérêts des personnes handicapées au niveau européen et international.",
+  "aboutUs.description3": "Actuellement, l'AEH se concentre sur les défis résultant du vieillissement des personnes handicapées, en particulier en ce qui concerne l'amélioration de leurs conditions de vie.",
+
+
+  "homePage.ourAction": "Notre action",
+  "homePage.image1.title": "Conseil de l'Europe",
+  "homePage.image1.description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+  "homePage.image2.title": "EDF",
+  "homePage.image2.description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+  "homePage.image3.title": "NOTRE ACTION",
+  "homePage.image3.description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+
+
+
+
+  "footer.menu": "Menu",
+  "footer.welcome": "Bienvenue chez l'AEH!",
+  "footer.organisation": "Organisation",
+  "footer.members": "Membres",
+  "footer.contact": "Contact",
+  "footer.privacyPolicy": "Politique de confidentialité",
+  "footer.imprint": "Mentions légales",
+  "footer.copyright": "© AEH 2024",
+  "footer.interested": "Intéressé?",
+  "footer.contactPrompt": "Intéressé? Contactez-nous!",
+  "footer.contactButton": "Contact"
+
+
+
+
+
+
+
+}
+

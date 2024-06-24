@@ -1,11 +1,10 @@
-
 import ImageCard from "../components/imageCardMitglieder/imageCardMitglieder";
 
 const MitgliederPage = () => {
     const images = [
         {
             title: "Association des Parents d'Enfants Mentalement Handicapés (APEMH) ",
-            standort:"Esch/Alzette, Luxemburg",
+            standort: "Esch/Alzette, Luxemburg",
         },
         {
             title: "Association La Bourguette",
@@ -56,7 +55,6 @@ const MitgliederPage = () => {
                 </h1>
 
             </div>
-
 
             <div className="flex items-center justify-center bg-neutral-800 mt-28">
                 <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
