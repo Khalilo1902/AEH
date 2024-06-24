@@ -1,0 +1,49 @@
+{
+
+  "menu.home": "Welcome to AEH!",
+  "menu.organisation": "Organisation",
+  "menu.members": "Members",
+  "menu.contact": "Contact",
+
+
+
+  "aboutUs.title": "Who are we",
+  "aboutUs.description1": "The AEH was founded in 1979 to support people with disabilities, with the implementation of the UN Convention on the Rights of Persons with Disabilities (UNCRPD) being a central goal.",
+  "aboutUs.description2": "As a co-founder of the European Disability Forum (EDF), the AEH is part of a significant institution advocating for the interests of people with disabilities at the European and international level.",
+  "aboutUs.description3": "Currently, the AEH focuses on the challenges arising from the aging of people with disabilities, particularly with regard to improving their living conditions.",
+  "aboutUs.title": "Who are we",
+  "aboutUs.description1": "The AEH was founded in 1979 to support people with disabilities, with the implementation of the UN Convention on the Rights of Persons with Disabilities (UNCRPD) being a central goal.",
+  "aboutUs.description2": "As a co-founder of the European Disability Forum (EDF), the AEH is part of a significant institution advocating for the interests of people with disabilities at the European and international level.",
+  "aboutUs.description3": "Currently, the AEH focuses on the challenges arising from the aging of people with disabilities, particularly with regard to improving their living conditions.",
+
+
+  "homePage.ourAction": "Our Action",
+  "homePage.image1.title": "Council of Europe",
+  "homePage.image1.description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+  "homePage.image2.title": "EDF",
+  "homePage.image2.description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+  "homePage.image3.title": "OUR ACTION",
+  "homePage.image3.description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+
+
+
+  "footer.menu": "Menu",
+  "footer.welcome": "Welcome to AEH!",
+  "footer.organisation": "Organisation",
+  "footer.members": "Members",
+  "footer.contact": "Contact",
+  "footer.privacyPolicy": "Privacy Policy",
+  "footer.imprint": "Imprint",
+  "footer.copyright": "© AEH 2024",
+  "footer.interested": "Interested?",
+  "footer.contactPrompt": "Interested? Contact us!",
+  "footer.contactButton": "Contact"
+
+
+
+
+
+
+
+}
+

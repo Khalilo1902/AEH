@@ -10,7 +10,8 @@ const ImageCard = ({ title, standort }: ImageCardProps) => {
     return (
         <div className="group relative cursor-pointer overflow-hidden rounded-lg shadow transition-shadow hover:shadow-xl hover:shadow-black/30">
             <div className="flex items-center justify-start absolute top-0 left-0 m-4">
-                <FaMapLocationDot className="w-5 h-5 text-white cursor-pointer" />
+
+                <FaMapLocationDot className="w-5 h-5 text-white cursor-pointer text-SECONDARY_RED "/>
                 <p className="ml-2 text-lg italic text-black">{standort}</p>
             </div>
             <div className="h-96 w-72 relative">
